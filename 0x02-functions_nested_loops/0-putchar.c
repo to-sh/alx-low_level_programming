@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char _putchar[9] = {'H', 'o', 'l', 'b', 'e', 'r', 't', 'o', 'n'};
+	char _putchar[8] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
 	unsigned int c;
 
 	for (c = 0; c < sizeof(_putchar); c++)
@@ -16,3 +16,4 @@ int main(void)
 	}
 _putchar('\n');
 return (0);
+}
