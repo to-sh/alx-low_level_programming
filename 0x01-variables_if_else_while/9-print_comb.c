@@ -1,12 +1,10 @@
 #include <stdio.h>
-
 /**
-* main - Entry point
-*
-* Return: returns 0 when everything works fine
-*
-*/
-
+ * main - printing numbers from 0-9 with commas and space between them
+ * Description: using the main function
+ * this program prints "0, 1, 2, 3, 4, 5, 6, 7, 8, 9"
+ * Return: 0
+ */
 int main(void)
 {
 	int c;
@@ -14,13 +12,12 @@ int main(void)
 	for (c = 48; c <= 57; c++)
 	{
 		putchar(c);
-		if (c <= 56)
+		if (c != 57)
 		{
-			putchar(44);
-			putchar(32);
+			putchar(',');
+			putchar(' ');
 		}
 	}
-
-	putchar(10);
+	putchar('\n');
 	return (0);
 }

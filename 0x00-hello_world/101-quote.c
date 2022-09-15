@@ -2,10 +2,12 @@
 #include <unistd.h>
 
 /**
- * main - Entry point
- *
- * Return: return 1
- */
+* main - print quote
+*
+* Description: prints Dora's quote
+*
+* Return: Always 1 (Success)
+*/
 
 int main(void)
 {
